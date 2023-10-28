@@ -77,12 +77,12 @@ const SignIn = () => {
         {currentUser === null ? (<span className=' text-center p-4'>Or login with</span>):("")}
         {currentUser === null ? (<OAuth/>):("")}
       </form>
-      {/* <div className='flex gap-2 mt-5'>
+      <div className='flex gap-2 mt-5'>
         <p>Dont Have an account?</p>
         <Link to={"/sign-up"} >
           <span className=' text-blue-700' >Register</span>
         </Link>
-      </div> */}
+      </div>
       {error && <p className='text-red-500 mt-5' > {error} </p>}
     </div>
   )
