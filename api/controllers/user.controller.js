@@ -8,9 +8,6 @@ export const test = (req,res) => {
         message:'API router is working'
     })
 }
-
-
-
 export const updateUser = async  (req, res, next) => {
     if(req.user.id !== req.params.id) return next(errorHandler(401, "You can only update your own account!"));
     try {
@@ -42,6 +39,33 @@ export const deleteUser = async  (req, res, next) => {
         await User.findByIdAndDelete(req.params.id)
         res.clearCookie('access_token');
         res.status(200).json('User has been deleted !')
+    } catch (error) {
+        next(error)
+    }
+}
+
+
+// export const Uoneuserdelt=async(req,res,next)=>{
+//     try{
+//         const Oneuser=await User.findById().lean();
+//         if(!Oneuser){
+//            return res.status(400).json({massage:"record not found"})
+//         }
+//         res.status(200).json({massage:"successful",Oneuser})
+//        }catch(error){
+//         res.status(500).json(error)
+//         console.log(error)
+//     }
+//   }
+
+
+
+export const Oneuserfind= async  (req, res, next) => {
+    if(req.user.id !== req.params.id) return next(errorHandler(401, "record not found"));
+    try {
+        await User.findById(req.params.id)
+        res.clearCookie('access_token');
+        res.status(200).json('successful')
     } catch (error) {
         next(error)
     }

@@ -6,8 +6,7 @@ import { updateUserStart, updateUserSuccess, updateUserFailure, deleteUserFailur
 import { useDispatch } from 'react-redux'
 import {useNavigate} from 'react-router-dom'
 const Profile = () => {
-
-  const navigate = useNavigate();
+const navigate=useNavigate();
   const { currentUser, loading, error } = useSelector((state) => state.user)
   const fileRef = useRef(null)
   const [file, setFile] = useState(undefined)
