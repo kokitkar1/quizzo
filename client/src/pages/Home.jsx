@@ -27,7 +27,7 @@ const Home = () => {
           </div>
           <div>{showSignIn ? <SignIn /> : <SignUp />}</div>
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/2">
+        <div className="md:w-1/2 lg:w-1/2">
           <img src={stockimage} alt="stock-quiz" className="w-full h-auto" />
         </div>
       </div>
