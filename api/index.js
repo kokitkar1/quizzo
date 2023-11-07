@@ -18,6 +18,10 @@ const app = express()
 app.use(express.json());
 app.use(cookieParser())
 const port = process.env.PORT
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}!!`)
+    }
+)
  
 app.get('/', (req, res) => res.send('Hello World!'))
 app.use("/api/user", userRouter)
@@ -41,7 +45,3 @@ app.use((err, req, res, next) => {
 
 
 
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}!!`)
-    }
-)

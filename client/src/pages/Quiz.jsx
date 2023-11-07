@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Quuizimage from '../assets/Ikbal 5.png';
 import Quuizimage2 from '../assets/Other 11.png';
 import Quuizimage3 from '../assets/Badrun 5.png';
@@ -31,7 +31,7 @@ const Quiz = () => {
           <h1>Filler text for joining quiz</h1>
           <button
             className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
-            onClick={() => handleJoinQuiz('/Fantasyquiz')}
+            // onClick={() => handleJoinQuiz('/Fantasyquiz')}
           >
             Join Quiz
           </button>
@@ -53,7 +53,7 @@ const Quiz = () => {
           <h1>Filler text for joining quiz</h1>
           <button
             className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
-            onClick={() => handleJoinQuiz('/Fantasyquiz1')}
+            // onClick={() => handleJoinQuiz('/Fantasyquiz1')}
           >
             Join Quiz
           </button>
@@ -75,7 +75,7 @@ const Quiz = () => {
           <h1>Filler text for joining quiz</h1>
           <button
             className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
-            onClick={()=>handleJoinQuiz('/Fantasyquiz2')}
+            // onClick={()=>handleJoinQuiz('/Fantasyquiz2')}
           >
             Join Quiz
           </button>
