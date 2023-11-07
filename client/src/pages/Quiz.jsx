@@ -1,5 +1,4 @@
-import { Link, useHistory } from 'react-router-dom';
-import React from 'react';
+import { Link } from 'react-router-dom';
 import Quuizimage from '../assets/Ikbal 5.png';
 import Quuizimage2 from '../assets/Other 11.png';
 import Quuizimage3 from '../assets/Badrun 5.png';
@@ -8,12 +7,12 @@ import Quuizimage5 from '../assets/Marni 3.png';
 import Quuizimage6 from '../assets/Other 15.png';
 
 const Quiz = () => {
-  const history = useHistory(); // Access the history object from React Router
+  // const history = useHistory(); // Access the history object from React Router
 
-  const handleJoinQuiz= (quizRoute) => {
-    // Navigate to the specified quiz route using React Router
-    history.push(quizRoute);
-  };
+  // const handleJoinQuiz= (quizRoute) => {
+  //   // Navigate to the specified quiz route using React Router
+  //   history.push(quizRoute);
+  // };
 
   return (
     <div className="flex flex-col p-3 m-4 gap-4">
