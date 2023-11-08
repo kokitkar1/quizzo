@@ -1,26 +1,22 @@
-import { Link } from 'react-router-dom'
-import Quuizimage from '../assets/Ikbal 5.png'
-import Quuizimage2 from '../assets/Other 11.png'
-import Quuizimage3 from '../assets/Badrun 5.png'
-import Quuizimage4 from '../assets/Other 08.png'
-import Quuizimage5 from '../assets/Marni 3.png'
-import Quuizimage6 from '../assets/Other 15.png'
+import { Link } from 'react-router-dom';
+import Quuizimage from '../assets/Ikbal 5.png';
+import Quuizimage2 from '../assets/Other 11.png';
+import Quuizimage3 from '../assets/Badrun 5.png';
+import Quuizimage4 from '../assets/Other 08.png';
+import Quuizimage5 from '../assets/Marni 3.png';
+import Quuizimage6 from '../assets/Other 15.png';
+
 const Quiz=()=>{
-  return (
+  return(
     <div className="flex flex-col p-3 m-4 gap-4">
-      <div className="flex flex-row m-4">
+      <div className="flex flex-col sm:flex-row">
         <div className="flex">
-          <div>
-            <img src={Quuizimage} alt="stock-quiz" className="w-60 h-60" />
-          </div>
-          <div>
-            <div style={{ marginRight: '500px' }}>
-              <img src={Quuizimage2} alt="stock-quiz" className="w-60 h-60" />
-            </div>
-          </div>
+          <img src={Quuizimage} alt="stock-quiz" className="w-full h-auto sm:w-60 sm:h-60" />
+          
         </div>
-        <div className="flex flex-col gap-3 items-center justify-center">
-          <h1>Filler text for joining quiz</h1>
+        <img src={Quuizimage2} alt="stock-quiz" className="w-full h-auto sm:w-60 sm:h-60" />
+        <div className="flex flex-col gap-3 items-center justify-center mr-10">
+          <h1 className="text-center sm:text-left mr-10">Filler text for joining quiz</h1>
           <Link to="/Fantasyquiz">
             <button className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80">
               Join Quiz
@@ -28,19 +24,15 @@ const Quiz=()=>{
           </Link>
         </div>
       </div>
-      <div className="flex flex-row m-4">
+
+      <div className="flex flex-col sm:flex-row">
         <div className="flex">
-          <div>
-            <img src={Quuizimage4} alt="stock-quiz" className="w-60 h-60" />
-          </div>
-          <div>
-            <div style={{ marginRight: '500px' }}>
-              <img src={Quuizimage3} alt="stock-quiz" className="w-60 h-60" />
-            </div>
-          </div>
+          <img src={Quuizimage4} alt="stock-quiz" className="w-full h-auto sm:w-60 sm:h-60" />
+        
         </div>
+        <img src={Quuizimage3} alt="stock-quiz" className="w-full h-auto sm:w-60 sm:h-60" />
         <div className="flex flex-col gap-3 items-center justify-center">
-          <h1>Filler text for joining quiz</h1>
+          <h1 className="text-center sm:text-left">Filler text for joining quiz</h1>
           <Link to="/Fantasyquiz1">
             <button className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80">
               Join Quiz
@@ -48,19 +40,15 @@ const Quiz=()=>{
           </Link>
         </div>
       </div>
-      <div className="flex flex-row m-4">
+
+      <div className="flex flex-col sm:flex-row">
         <div className="flex">
-          <div>
-            <img src={Quuizimage5} alt="stock-quiz" className="w-60 h-60" />
-          </div>
-          <div>
-            <div style={{ marginRight: '500px'}}>
-              <img src={Quuizimage6} alt="stock-quiz" className="w-60 h-60" />
-            </div>
-          </div>
+          <img src={Quuizimage5} alt="stock-quiz" className="w-full h-auto sm:w-60 sm:h-60" />
+          
         </div>
+        <img src={Quuizimage6} alt="stock-quiz" className="w-full h-auto sm:w-60 sm:h-60" />
         <div className="flex flex-col gap-3 items-center justify-center">
-          <h1>Filler text for joining quiz</h1>
+          <h1 className="text-center sm:text-left">Filler text for joining quiz</h1>
           <Link to="/Fantasyquiz2">
             <button className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80">
               Join Quiz
@@ -72,94 +60,3 @@ const Quiz=()=>{
   );
 };
 export default Quiz;
-
-
-
-// // import { Link } from 'react-router-dom';
-// import Quuizimage from '../assets/Ikbal 5.png';
-// import Quuizimage2 from '../assets/Other 11.png';
-// import Quuizimage3 from '../assets/Badrun 5.png';
-// import Quuizimage4 from '../assets/Other 08.png';
-// import Quuizimage5 from '../assets/Marni 3.png';
-// import Quuizimage6 from '../assets/Other 15.png';
-
-// const Quiz = () => {
-//   // const history = useHistory(); // Access the history object from React Router
-
-//   // const handleJoinQuiz= (quizRoute) => {
-//   //   // Navigate to the specified quiz route using React Router
-//   //   history.push(quizRoute);
-//   // };
-
-//   return (
-//     <div className="flex flex-col p-3 m-4 gap-4">
-//       <div className="flex flex-row m-4">
-//         <div className="flex">
-//           <div>
-//             <img src={Quuizimage} alt="stock-quiz" className="w-60 h-60" />
-//           </div>
-//           <div>
-//             <div style={{ marginRight: '500px' }}>
-//               <img src={Quuizimage2} alt="stock-quiz" className="w-60 h-60" />
-//             </div>
-//           </div>
-//         </div>
-//         <div className="flex flex-col gap-3 items-center justify-center">
-//           <h1>Filler text for joining quiz</h1>
-//           <button
-//             className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
-//             // onClick={() => handleJoinQuiz('/Fantasyquiz')}
-//           >
-//             Join Quiz
-//           </button>
-//         </div>
-//       </div>
-
-//       <div className="flex flex-row m-4">
-//         <div className="flex">
-//           <div>
-//             <img src={Quuizimage4} alt="stock-quiz" className="w-60 h-60" />
-//           </div>
-//           <div>
-//             <div style={{ marginRight: '500px' }}>
-//               <img src={Quuizimage3} alt="stock-quiz" className="w-60 h-60" />
-//             </div>
-//           </div>
-//         </div>
-//         <div className="flex flex-col gap-3 items-center justify-center">
-//           <h1>Filler text for joining quiz</h1>
-//           <button
-//             className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
-//             // onClick={() => handleJoinQuiz('/Fantasyquiz1')}
-//           >
-//             Join Quiz
-//           </button>
-//         </div>
-//       </div>
-
-//       <div className="flex flex-row m-4">
-//         <div className="flex">
-//           <div>
-//             <img src={Quuizimage5} alt="stock-quiz" className="w-60 h-60" />
-//           </div>
-//           <div>
-//             <div style={{ marginRight: '500px' }}>
-//               <img src={Quuizimage6} alt="stock-quiz" className="w-60 h-60" />
-//             </div>
-//           </div>
-//         </div>
-//         <div className="flex flex-col gap-3 items-center justify-center">
-//           <h1>Filler text for joining quiz</h1>
-//           <button
-//             className="bg-slate-700 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
-//             // onClick={()=>handleJoinQuiz('/Fantasyquiz2')}
-//           >
-//             Join Quiz
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Quiz;
