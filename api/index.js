@@ -23,7 +23,7 @@ app.listen(port, () => {
     }
 )
  
-app.get('/', (req, res) => res.send('Hello World!'))
+// app.get('/', (req, res) => res.send('Hello World!'))
 app.use("/api/user", userRouter)
 app.use("/api/auth", authRouter)
 
