@@ -83,7 +83,7 @@ const tallBoxStyle3={
             <p style={{ fontSize: '20px', textAlignLast: 'center', fontWeight: 'bold' ,}}>Monthly</p>
             </div>
             <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 1 }}>
-                <p style={{ fontSize: '20px', fontWeight: 'bold' }}>149/  -Only</p>
+                <p style={{ fontSize: '20px', fontWeight: 'bold' }}>₹ 149/  -Only</p>
               </div>
                 <div style={{ margin: '20px 0', left: '20px', textAlign: 'left'}}>
               <p style={{ fontSize: '15px', fontWeight: 'bold', paddingTop: "50px"}}>Plan includes:</p>
@@ -118,7 +118,7 @@ const tallBoxStyle3={
         <p style={{ fontSize: '20px', textAlignLast: 'center', fontWeight: 'bold' ,}}>Yearly</p>
         </div>
         <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 1 }}>
-            <p style={{ fontSize: '20px', fontWeight: 'bold' }}>999/  -Only</p>
+            <p style={{ fontSize: '20px', fontWeight: 'bold' }}> ₹ 999/  -Only</p>
           </div>
         <div style={{ margin: '20px 0', left: '20px', textAlign: 'left' }}>
           <p style={{ fontSize: '15px', fontWeight: 'bold', paddingTop: "50px" }}>Plan includes:</p>
