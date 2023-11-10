@@ -8,8 +8,7 @@ import Quuizimage6 from '../assets/Other 15.png';
 const Quiz = () => {
   return (
     <div className="flex flex-col p-3 m-4 gap-4">
-
-      <div className="flex flex-col sm:flex-row w-full items-center bg-slate-400 rounded-2xl p-3 bg-opacity-70">
+<div className="flex flex-col sm:flex-row w-full items-center bg-slate-400 rounded-2xl p-3 bg-opacity-70">
         <div className="w-full sm:w-1/2 flex gap-3">
           <div className="w-full">
             <img src={Quuizimage} alt="stock-quiz" className="w-full h-auto sm:w-65 sm:h-65" />
