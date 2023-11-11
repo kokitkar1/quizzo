@@ -75,11 +75,8 @@ const tallBoxStyle3={
         
         <div style={{ position: 'sticky', bottom: '0' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-    
         </div>
-         
-         
-          <div style={{ position: 'absolute', top: '10px', left: '10px', zIndex: 1 }}>
+         <div style={{ position: 'absolute', top: '10px', left: '10px', zIndex: 1 }}>
             <p style={{ fontSize: '20px', textAlignLast: 'center', fontWeight: 'bold' ,}}>Monthly</p>
             </div>
             <div style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 1 }}>
