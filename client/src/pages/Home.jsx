@@ -5,7 +5,6 @@ import SignUp from './SignUp.jsx';
 import OurValues from './OurValues.jsx';
 import Quiz from './Quiz.jsx';
 import stockimage from '../assets/Stock_Market.png';
-
 const Home = () => {
   const [showSignIn, setShowSignIn] = useState(true);
 
