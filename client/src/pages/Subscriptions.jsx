@@ -17,11 +17,11 @@ const Subscriptions = () => {
         <p className="text-2xl mb-2">Your Career</p>
         <p className="text-2xl font-bold">Starts here</p>
         <p className="text-sm text-center md:text-left px-4">
-           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, '</p>
-           <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> 
-           <p>pquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '</p>
-           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-           <p> Excepteur sint occaecat cupidatat non proide laborum'</p>
+           <p> Quizzo: Affordable Access to Engaging and Educational Quizzes '</p>
+           <p>At Quizzo, we believe that education should be accessible and affordable. That's why we </p> 
+           <p>offer two simple and transparent pricing plans to fit your needs and budget:</p>
+           {/* <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+           <p> Excepteur sint occaecat cupidatat non proide laborum'</p> */}
           
         </p>
         <div className="flex justify-center items-center">
