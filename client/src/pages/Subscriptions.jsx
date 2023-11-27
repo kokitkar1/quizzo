@@ -43,21 +43,22 @@ const Subscriptions = () => {
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            Lorem ipsum dolor sit amet
+            Unlimited access to all quizzes
           </div>
           <div className="text-left mb-4">
             <FontAwesomeIcon
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            {`Lorem ipsum dolor sit ame.`.toLowerCase()}
+            {`Personalized recommendations based on your progress.`.toLowerCase()}
           </div>
           <div className="text-left">
             <FontAwesomeIcon
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            Consectetur, adipisicing elit.
+           Track your performance with detailed analytics
+
           </div>
         </div>
         <button className="bg-purple-500 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80 absolute bottom-0 left-10 right-10 mx-auto mb-4">
@@ -75,21 +76,30 @@ const Subscriptions = () => {
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            Lorem ipsum dolor sit amet
+           Save over 50% off the monthly plan
           </div>
           <div className="text-left mb-4">
             <FontAwesomeIcon
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            {`Lorem ipsum dolor sit ame.`.toLowerCase()}
+            {`All the benefits of the monthly plan, plus:`.toLowerCase()}
           </div>
           <div className="text-left">
             <FontAwesomeIcon
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            Consectetur, adipisicing elit.
+        Priority access to new quizzes
+
+          </div>
+          <div className="text-left">
+            <FontAwesomeIcon
+              icon={faCheckCircle}
+              className="text-black mr-2"
+            />
+      Exclusive discounts on educational resources
+
           </div>
         </div>
         <button className="bg-white text-black rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80 absolute bottom-0 left-10 right-10 mx-auto mb-4">
