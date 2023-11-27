@@ -50,7 +50,7 @@ const Subscriptions = () => {
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            {`Personalized recommendations based on your progress.`.toLowerCase()}
+            {`Personalized recommendations based on your progress.`}
           </div>
           <div className="text-left">
             <FontAwesomeIcon
@@ -83,7 +83,7 @@ const Subscriptions = () => {
               icon={faCheckCircle}
               className="text-black mr-2"
             />
-            {`All the benefits of the monthly plan, plus:`.toLowerCase()}
+            {`All the benefits of the monthly plan, plus:`}
           </div>
           <div className="text-left">
             <FontAwesomeIcon

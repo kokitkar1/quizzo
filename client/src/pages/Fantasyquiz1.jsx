@@ -31,7 +31,7 @@ const quizzes=[
         correctAnswer: 'B'
       },
       {
-        question3: ' 3. If a rectangle has a length of 12 units and a width of 5 units, what is its area? ',
+        question: '3. If a rectangle has a length of 12 units and a width of 5 units, what is its area? ',
         options: [
           { id: 'A', text: ' 60 square units  ' },
           { id: 'B', text: '  48 square units' },
@@ -41,7 +41,7 @@ const quizzes=[
         correctAnswer: 'A'
       },
       {
-        question4: '4. What is the value of 5² + 3 × 4 ÷ 2?',
+        question: '4. What is the value of 5² + 3 × 4 ÷ 2?',
         options: [
           { id: 'A', text: ' 18   ' },
           { id: 'B', text: ' 17' },
@@ -51,7 +51,7 @@ const quizzes=[
         correctAnswer: 'C'
       },
       {
-        question5: '5. If the sum of three consecutive integers is 72, what is the smallest of these integers? ',
+        question: '5. If the sum of three consecutive integers is 72, what is the smallest of these integers? ',
         options: [
           { id: 'A', text: '23  ' },
           { id: 'B', text: ' 24 ' },
